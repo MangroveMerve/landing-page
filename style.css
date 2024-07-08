@@ -3,11 +3,19 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .profile-pic {
@@ -16,10 +24,17 @@ body {
     border-radius: 50%;
 }
 
+.leftside {
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+
 .hero {
     display: flex;
     justify-content: space-around;
     gap: 50px;
+    padding: 50px;
 }
 
 .herocontent {
@@ -29,6 +44,21 @@ body {
     flex-basis: 500px;
 }
 
-.mervebushes {
-    width: 700px;
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
 }
